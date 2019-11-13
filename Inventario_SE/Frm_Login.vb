@@ -53,8 +53,10 @@
 
     Private Sub btn_ingresar_Click(sender As Object, e As EventArgs) Handles btn_ingresar.Click
         If txtrut.Text = "153486735" And txtpassword.Text = "1234" Then
-            Me.Close()
+
             Frm_Principal.Show()
+            Me.Hide()
+
         Else
             MsgBox("Error!, el usuario y contraseña no coinciden, reintentelo", vbCritical, "Error en credenciales")
             txtrut.Clear()

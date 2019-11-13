@@ -20,7 +20,11 @@
         g.DrawString(_tabPage.Text, _tabFont, _textBrush, _tabBounds, New StringFormat(_stringFlags))
     End Sub
 
-    Private Sub TabPage1_Click(sender As Object, e As EventArgs) Handles TabPage1.Click
+    Private Sub TabPage1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub TabPage2_Click(sender As Object, e As EventArgs) Handles TabPage2.Click
 
     End Sub
 End Class
