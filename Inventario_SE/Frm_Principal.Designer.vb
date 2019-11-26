@@ -66,7 +66,7 @@ Partial Class Frm_Principal
         Me.panelSideMenu.HorizontalScrollbarSize = 10
         Me.panelSideMenu.Location = New System.Drawing.Point(0, 0)
         Me.panelSideMenu.Name = "panelSideMenu"
-        Me.panelSideMenu.Size = New System.Drawing.Size(250, 562)
+        Me.panelSideMenu.Size = New System.Drawing.Size(250, 600)
         Me.panelSideMenu.TabIndex = 0
         Me.panelSideMenu.VerticalScrollbar = True
         Me.panelSideMenu.VerticalScrollbarBarColor = True
@@ -267,7 +267,7 @@ Partial Class Frm_Principal
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(233, 48)
         Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Submenu1"
+        Me.Button2.Text = "Articulos de inventario"
         Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -282,7 +282,7 @@ Partial Class Frm_Principal
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(233, 44)
         Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Principal1"
+        Me.Button1.Text = "Inventario Principal"
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -303,21 +303,22 @@ Partial Class Frm_Principal
         '
         'panelChildForm
         '
-        Me.panelChildForm.BackColor = System.Drawing.Color.DarkGray
+        Me.panelChildForm.BackColor = System.Drawing.Color.White
         Me.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill
         Me.panelChildForm.Location = New System.Drawing.Point(250, 0)
         Me.panelChildForm.Name = "panelChildForm"
-        Me.panelChildForm.Size = New System.Drawing.Size(684, 562)
+        Me.panelChildForm.Size = New System.Drawing.Size(700, 600)
         Me.panelChildForm.TabIndex = 1
         '
         'Frm_Principal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(934, 562)
+        Me.ClientSize = New System.Drawing.Size(950, 600)
         Me.Controls.Add(Me.panelChildForm)
         Me.Controls.Add(Me.panelSideMenu)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximumSize = New System.Drawing.Size(950, 600)
         Me.Name = "Frm_Principal"

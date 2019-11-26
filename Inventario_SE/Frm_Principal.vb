@@ -40,11 +40,10 @@
         childForm.BringToFront()
         childForm.Show()
     End Sub
-    'Private Sub button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-    '    openChildForm(New Form2())
-    '    '...
-    '    'your codes
-    '    '...
-    '    hideSubmenu()
-    'End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        openChildForm(New Inventario_principal())
+        hideSubmenu()
+    End Sub
+
 End Class
